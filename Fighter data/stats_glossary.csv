@@ -1,0 +1,37 @@
+﻿column,description
+%BODY,Target Breakdown Body
+%HEAD,Target Breakdown Head
+%LEG,Target Breakdown Leg
+AD,Advances
+ADHG,Advance To Half Guard
+ADTB,Advance To Back
+ADTM,Advance To Mount
+ADTS,Advance To Side
+KD,Knockdowns
+RV,Reversals
+SCBA,Significant Clinch Body Strike Attempts
+SCBL,Significant Clinch Body Strikes Landed
+SCHA,Significant Clinch Head Strike Attempts
+SCHL,Significant Clinch Head Strikes Landed
+SCLA,Significant Clinch Leg Strike Attempts
+SCLL,Significant Clinch Leg Strikes Landed
+SDBL/A,Significant Distance Body Strikes Landed-Significant Distance Body Strike Attempts
+SDHL/A,Significant Distance Head Strikes Landed-Significant Distance Head Strike Attempts
+SDLL/A,Significant Distance Leg Strikes Landed-Significant Distance Leg Strike Attempts
+SGBA,Significant Ground Body Strike Attempts
+SGBL,Significant Ground Body Strikes Landed
+SGHA,Significant Ground Head Strike Attempts
+SGHL,Significant Ground Head Strikes Landed
+SGLA,Significant Ground Leg Strikes Attempted
+SGLL,Significant Ground Leg Strikes Landed
+SM,Submissions
+SR,Slam Rate
+SSA,Significant Strikes Attempts
+SSL,Significant Strikes Landed
+TDA,Takedowns Attempted
+TDL,Takedowns Landed
+TDS,Takedowns Slams
+TK ACC,Takedown Accuracy
+TSA,Total Strikes Attempts
+TSL,Total Strikes Landed
+TSL-TSA,Total Strikes Landed-Total Strikes Attempts

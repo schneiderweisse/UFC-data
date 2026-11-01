@@ -1,0 +1,129 @@
+﻿division,rank,name,espn_id,espn_name,espn_url
+Flyweight,C,Joshua Van,5120301,Joshua Van,https://www.espn.com/mma/fighter/_/id/5120301
+Flyweight,1,Alexandre Pantoja,2560746,Alexandre Pantoja,https://www.espn.com/mma/fighter/_/id/2560746
+Flyweight,2,Manel Kape,4236504,Manel Kape,https://www.espn.com/mma/fighter/_/id/4236504
+Flyweight,3,Brandon Royval,4239928,Brandon Royval,https://www.espn.com/mma/fighter/_/id/4239928
+Flyweight,4,Tatsuro Taira,4917772,Tatsuro Taira,https://www.espn.com/mma/fighter/_/id/4917772
+Flyweight,5,Kyoji Horiguchi,2613374,Kyoji Horiguchi,https://www.espn.com/mma/fighter/_/id/2613374
+Flyweight,6,Lone’er Kavanagh,5147737,Lone'er Kavanagh,https://www.espn.com/mma/fighter/_/id/5147737
+Flyweight,7,Asu Almabayev,4294926,Asu Almabayev,https://www.espn.com/mma/fighter/_/id/4294926
+Flyweight,8,Brandon Moreno,3027545,Brandon Moreno,https://www.espn.com/mma/fighter/_/id/3027545
+Flyweight,9,Amir Albazi,4684848,Amir Albazi,https://www.espn.com/mma/fighter/_/id/4684848
+Flyweight,10,Ramazan Temirov,4895691,Ramazan Temirov,https://www.espn.com/mma/fighter/_/id/4895691
+Flyweight,11,Tim Elliott,2614020,Tim Elliott,https://www.espn.com/mma/fighter/_/id/2614020
+Flyweight,12,Steve Erceg,4997217,Steve Erceg,https://www.espn.com/mma/fighter/_/id/4997217
+Flyweight,13,Sumudaerji,4405109,Sumudaerji,https://www.espn.com/mma/fighter/_/id/4405109
+Flyweight,14,Tagir Ulanbekov,4294924,Tagir Ulanbekov,https://www.espn.com/mma/fighter/_/id/4294924
+Flyweight,15,Alex Perez,3155425,Alex Perez,https://www.espn.com/mma/fighter/_/id/3155425
+Bantamweight,C,Petr Yan,4293517,Petr Yan,https://www.espn.com/mma/fighter/_/id/4293517
+Bantamweight,1,Merab Dvalishvili,3948572,Merab Dvalishvili,https://www.espn.com/mma/fighter/_/id/3948572
+Bantamweight,2,Sean O'Malley,4205093,Sean O'Malley,https://www.espn.com/mma/fighter/_/id/4205093
+Bantamweight,3,Song Yadong,3151289,Song Yadong,https://www.espn.com/mma/fighter/_/id/3151289
+Bantamweight,4,Umar Nurmagomedov,4569549,Umar Nurmagomedov,https://www.espn.com/mma/fighter/_/id/4569549
+Bantamweight,5,Mario Bautista,4410868,Mario Bautista,https://www.espn.com/mma/fighter/_/id/4410868
+Bantamweight,6,Cory Sandhagen,4294504,Cory Sandhagen,https://www.espn.com/mma/fighter/_/id/4294504
+Bantamweight,7,Payton Talbott,5144008,Payton Talbott,https://www.espn.com/mma/fighter/_/id/5144008
+Bantamweight,8,David Martinez,4503229,David Martinez,https://www.espn.com/mma/fighter/_/id/4503229
+Bantamweight,9,Aiemann Zahabi,4079149,Aiemann Zahabi,https://www.espn.com/mma/fighter/_/id/4079149
+Bantamweight,10,Raul Rosas Jr.,5088844,Raul Rosas Jr.,https://www.espn.com/mma/fighter/_/id/5088844
+Bantamweight,11,Marlon Vera,3155424,Marlon Vera,https://www.espn.com/mma/fighter/_/id/3155424
+Bantamweight,12,Deiveson Figueiredo,4189320,Deiveson Figueiredo,https://www.espn.com/mma/fighter/_/id/4189320
+Bantamweight,13,Marcus McGhee,4895760,Marcus McGhee,https://www.espn.com/mma/fighter/_/id/4895760
+Bantamweight,14,Raoni Barcelos,3075570,Raoni Barcelos,https://www.espn.com/mma/fighter/_/id/3075570
+Bantamweight,15,Bryce Mitchell,3953381,Bryce Mitchell,https://www.espn.com/mma/fighter/_/id/3953381
+Featherweight,C,Alexander Volkanovski,3949584,Alexander Volkanovski,https://www.espn.com/mma/fighter/_/id/3949584
+Featherweight,1,Movsar Evloev,4029275,Movsar Evloev,https://www.espn.com/mma/fighter/_/id/4029275
+Featherweight,2,Diego Lopes,4881999,Diego Lopes,https://www.espn.com/mma/fighter/_/id/4881999
+Featherweight,3,Lerone Murphy,4576101,Lerone Murphy,https://www.espn.com/mma/fighter/_/id/4576101
+Featherweight,4,Aljamain Sterling,3031559,Aljamain Sterling,https://www.espn.com/mma/fighter/_/id/3031559
+Featherweight,5,Jean Silva,5145766,Jean Silva,https://www.espn.com/mma/fighter/_/id/5145766
+Featherweight,6,Yair Rodriguez,3155420,Yair Rodriguez,https://www.espn.com/mma/fighter/_/id/3155420
+Featherweight,7,Arnold Allen,3902098,Arnold Allen,https://www.espn.com/mma/fighter/_/id/3902098
+Featherweight,8,Youssef Zalal,4351319,Youssef Zalal,https://www.espn.com/mma/fighter/_/id/4351319
+Featherweight,9,Kevin Vallejos,5145681,Kevin Vallejos,https://www.espn.com/mma/fighter/_/id/5145681
+Featherweight,10,Steve Garcia,3023804,Steve Garcia,https://www.espn.com/mma/fighter/_/id/3023804
+Featherweight,11,Aaron Pico,4199009,Aaron Pico,https://www.espn.com/mma/fighter/_/id/4199009
+Featherweight,12,Melquizael Costa,4425763,Melquizael Costa,https://www.espn.com/mma/fighter/_/id/4425763
+Featherweight,13,Brian Ortega,3045737,Brian Ortega,https://www.espn.com/mma/fighter/_/id/3045737
+Featherweight,14,Patricio Pitbull,2532870,Patricio Pitbull,https://www.espn.com/mma/fighter/_/id/2532870
+Featherweight,15,David Onama,4897850,David Onama,https://www.espn.com/mma/fighter/_/id/4897850
+Lightweight,C,Justin Gaethje,3022345,Justin Gaethje,https://www.espn.com/mma/fighter/_/id/3022345
+Lightweight,1,Ilia Topuria,4350812,Ilia Topuria,https://www.espn.com/mma/fighter/_/id/4350812
+Lightweight,2,Arman Tsarukyan,4419372,Arman Tsarukyan,https://www.espn.com/mma/fighter/_/id/4419372
+Lightweight,3,Charles Oliveira,2504169,Charles Oliveira,https://www.espn.com/mma/fighter/_/id/2504169
+Lightweight,4,Max Holloway,2614933,Max Holloway,https://www.espn.com/mma/fighter/_/id/2614933
+Lightweight,5,Paddy Pimblett,4008549,Paddy Pimblett,https://www.espn.com/mma/fighter/_/id/4008549
+Lightweight,6,Benoit Saint Denis,4895362,Benoît Saint Denis,https://www.espn.com/mma/fighter/_/id/4895362
+Lightweight,7,Quillan Salkilld,5157667,Quillan Salkilld,https://www.espn.com/mma/fighter/_/id/5157667
+Lightweight,8,Mauricio Ruffy,5122238,Mauricio Ruffy,https://www.espn.com/mma/fighter/_/id/5122238
+Lightweight,9,Salahdine Parnasse,4312859,Salahdine Parnasse,https://www.espn.com/mma/fighter/_/id/4312859
+Lightweight,10,Mateusz Gamrot,3068125,Mateusz Gamrot,https://www.espn.com/mma/fighter/_/id/3068125
+Lightweight,11,Rafael Fiziev,4339488,Rafael Fiziev,https://www.espn.com/mma/fighter/_/id/4339488
+Lightweight,12,Renato Moicano,3028863,Renato Moicano,https://www.espn.com/mma/fighter/_/id/3028863
+Lightweight,13,Dan Hooker,3109135,Dan Hooker,https://www.espn.com/mma/fighter/_/id/3109135
+Lightweight,14,Tom Nolan,5144007,Tom Nolan,https://www.espn.com/mma/fighter/_/id/5144007
+Lightweight,15,Beneil Dariush,3085551,Beneil Dariush,https://www.espn.com/mma/fighter/_/id/3085551
+Welterweight,C,Islam Makhachev,3332412,Islam Makhachev,https://www.espn.com/mma/fighter/_/id/3332412
+Welterweight,1,Ian Machado Garry,4738092,Ian Machado Garry,https://www.espn.com/mma/fighter/_/id/4738092
+Welterweight,2,Carlos Prates,4294832,Carlos Prates,https://www.espn.com/mma/fighter/_/id/4294832
+Welterweight,3,Michael Morales,4869426,Michael Morales,https://www.espn.com/mma/fighter/_/id/4869426
+Welterweight,4,Jack Della Maddalena,4828707,Jack Della Maddalena,https://www.espn.com/mma/fighter/_/id/4828707
+Welterweight,5,Gabriel Bonfim,4921516,Gabriel Bonfim,https://www.espn.com/mma/fighter/_/id/4921516
+Welterweight,6,Sean Brady,4295192,Sean Brady,https://www.espn.com/mma/fighter/_/id/4295192
+Welterweight,7,Belal Muhammad,3172112,Belal Muhammad,https://www.espn.com/mma/fighter/_/id/3172112
+Welterweight,8,Leon Edwards,3152929,Leon Edwards,https://www.espn.com/mma/fighter/_/id/3152929
+Welterweight,9,Kamaru Usman,3088812,Kamaru Usman,https://www.espn.com/mma/fighter/_/id/3088812
+Welterweight,10,Mike Malott,3165120,Mike Malott,https://www.espn.com/mma/fighter/_/id/3165120
+Welterweight,11,Yaroslav Amosov,4275020,Yaroslav Amosov,https://www.espn.com/mma/fighter/_/id/4275020
+Welterweight,12,Uros Medic,4685870,Uroš Medić,https://www.espn.com/mma/fighter/_/id/4685870
+Welterweight,12,Joaquin Buckley,4024714,Joaquin Buckley,https://www.espn.com/mma/fighter/_/id/4024714
+Welterweight,14,Daniel Rodriguez,4426312,Daniel Rodriguez,https://www.espn.com/mma/fighter/_/id/4426312
+Welterweight,15,Neil Magny,3001914,Neil Magny,https://www.espn.com/mma/fighter/_/id/3001914
+Middleweight,C,Sean Strickland,3093653,Sean Strickland,https://www.espn.com/mma/fighter/_/id/3093653
+Middleweight,1,Khamzat Chimaev,4684751,Khamzat Chimaev,https://www.espn.com/mma/fighter/_/id/4684751
+Middleweight,2,Dricus Du Plessis,3166126,Dricus Du Plessis,https://www.espn.com/mma/fighter/_/id/3166126
+Middleweight,3,Nassourdine Imavov,4690539,Nassourdine Imavov,https://www.espn.com/mma/fighter/_/id/4690539
+Middleweight,4,Brendan Allen,4025699,Brendan Allen,https://www.espn.com/mma/fighter/_/id/4025699
+Middleweight,5,Caio Borralho,4835137,Caio Borralho,https://www.espn.com/mma/fighter/_/id/4835137
+Middleweight,6,Joe Pyfer,4684135,Joe Pyfer,https://www.espn.com/mma/fighter/_/id/4684135
+Middleweight,7,Gregory Rodrigues,4690541,Gregory Rodrigues,https://www.espn.com/mma/fighter/_/id/4690541
+Middleweight,8,Anthony Hernandez,4290956,Anthony Hernandez,https://www.espn.com/mma/fighter/_/id/4290956
+Middleweight,9,Israel Adesanya,4285679,Israel Adesanya,https://www.espn.com/mma/fighter/_/id/4285679
+Middleweight,10,Christian Leroy Duncan,4848674,Christian Leroy Duncan,https://www.espn.com/mma/fighter/_/id/4848674
+Middleweight,11,Jared Cannonier,3154860,Jared Cannonier,https://www.espn.com/mma/fighter/_/id/3154860
+Middleweight,12,Abus Magomedov,3077822,Abus Magomedov,https://www.espn.com/mma/fighter/_/id/3077822
+Middleweight,13,Ikram Aliskerov,4684776,Ikram Aliskerov,https://www.espn.com/mma/fighter/_/id/4684776
+Middleweight,14,Bo Nickal,5061870,Bo Nickal,https://www.espn.com/mma/fighter/_/id/5061870
+Middleweight,15,Shara Magomedov,4421784,Shara Magomedov,https://www.espn.com/mma/fighter/_/id/4421784
+Light Heavyweight,C,Carlos Ulberg,4695736,Carlos Ulberg,https://www.espn.com/mma/fighter/_/id/4695736
+Light Heavyweight,1,Magomed Ankalaev,4273399,Magomed Ankalaev,https://www.espn.com/mma/fighter/_/id/4273399
+Light Heavyweight,2,Jiří Procházka,3156612,Jiří Procházka,https://www.espn.com/mma/fighter/_/id/3156612
+Light Heavyweight,3,Alex Pereira,4705658,Alex Pereira,https://www.espn.com/mma/fighter/_/id/4705658
+Light Heavyweight,4,Khalil Rountree Jr.,4028627,Khalil Rountree Jr.,https://www.espn.com/mma/fighter/_/id/4028627
+Light Heavyweight,5,Navajo Stirling,5216713,Navajo Stirling,https://www.espn.com/mma/fighter/_/id/5216713
+Light Heavyweight,6,Paulo Costa,4080826,Paulo Costa,https://www.espn.com/mma/fighter/_/id/4080826
+Light Heavyweight,7,Azamat Murzakanov,4227265,Azamat Murzakanov,https://www.espn.com/mma/fighter/_/id/4227265
+Light Heavyweight,8,Dominick Reyes,4233039,Dominick Reyes,https://www.espn.com/mma/fighter/_/id/4233039
+Light Heavyweight,9,Jan Blachowicz,2506250,Jan Blachowicz,https://www.espn.com/mma/fighter/_/id/2506250
+Light Heavyweight,10,Bogdan Guskov,5152109,Bogdan Guskov,https://www.espn.com/mma/fighter/_/id/5152109
+Light Heavyweight,11,Robert Whittaker,3009717,Robert Whittaker,https://www.espn.com/mma/fighter/_/id/3009717
+Light Heavyweight,12,Alonzo Menifield,3948876,Alonzo Menifield,https://www.espn.com/mma/fighter/_/id/3948876
+Light Heavyweight,13,Muhammad Saidov,,,
+Light Heavyweight,14,Reinier de Ridder,4423880,Reinier de Ridder,https://www.espn.com/mma/fighter/_/id/4423880
+Light Heavyweight,15,Nikita Krylov,3026263,Nikita Krylov,https://www.espn.com/mma/fighter/_/id/3026263
+Heavyweight,C,Ciryl Gane,4426000,Ciryl Gane,https://www.espn.com/mma/fighter/_/id/4426000
+Heavyweight,1,Tom Aspinall,4010976,Tom Aspinall,https://www.espn.com/mma/fighter/_/id/4010976
+Heavyweight,2,Alexander Volkov,2993650,Alexander Volkov,https://www.espn.com/mma/fighter/_/id/2993650
+Heavyweight,3,Sergei Pavlovich,4217395,Sergei Pavlovich,https://www.espn.com/mma/fighter/_/id/4217395
+Heavyweight,4,Josh Hokit,4049391,Josh Hokit,https://www.espn.com/mma/fighter/_/id/4049391
+Heavyweight,5,Curtis Blaydes,3922557,Curtis Blaydes,https://www.espn.com/mma/fighter/_/id/3922557
+Heavyweight,6,Waldo Cortes Acosta,4903365,Waldo Cortes Acosta,https://www.espn.com/mma/fighter/_/id/4903365
+Heavyweight,7,Rizvan Kuniev,4001837,Rizvan Kuniev,https://www.espn.com/mma/fighter/_/id/4001837
+Heavyweight,8,Vitor Petrino,5060483,Vitor Petrino,https://www.espn.com/mma/fighter/_/id/5060483
+Heavyweight,9,Serghei Spivac,4421246,Serghei Spivac,https://www.espn.com/mma/fighter/_/id/4421246
+Heavyweight,10,Ante Delija,3041315,Ante Delija,https://www.espn.com/mma/fighter/_/id/3041315
+Heavyweight,11,Valter Walker,5147389,Valter Walker,https://www.espn.com/mma/fighter/_/id/5147389
+Heavyweight,12,Derrick Lewis,2560713,Derrick Lewis,https://www.espn.com/mma/fighter/_/id/2560713
+Heavyweight,12,Tyrell Fortune,4065006,Tyrell Fortune,https://www.espn.com/mma/fighter/_/id/4065006
+Heavyweight,14,Aleksandar Rakic,4079314,Aleksandar Rakic,https://www.espn.com/mma/fighter/_/id/4079314
+Heavyweight,15,Mario Pinto,5218817,Mario Pinto,https://www.espn.com/mma/fighter/_/id/5218817

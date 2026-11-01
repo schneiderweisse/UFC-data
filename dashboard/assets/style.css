@@ -1,0 +1,371 @@
+/* UFC 8-BIT — estilo do painel (o Dash carrega este arquivo automaticamente) */
+
+:root {
+  --bg: #0b0a1a;
+  --panel: #18143a;
+  --panel-2: #221c4d;
+  --ink: #f4f0ff;
+  --muted: #8f88c0;
+  --line: #0c0818;
+  --gold: #ffcd3c;
+  --red: #ff4d5e;
+  --green: #4ade80;
+  --cyan: #3fe0ff;
+  --purple: #7b5cff;
+  --pixel: 'Press Start 2P', monospace;
+  --text: 'VT323', monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(rgba(123, 92, 255, .06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(123, 92, 255, .06) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 20px;
+  -webkit-font-smoothing: none;
+}
+
+/* scanlines de CRT por cima de tudo */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(rgba(0, 0, 0, .18) 0 1px, transparent 1px 3px);
+  z-index: 100;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* na versão estática (GitHub Pages) os botões são links */
+a.btn, a.tile, a.division-card { color: inherit; text-decoration: none; }
+a.btn { display: inline-block; text-align: center; }
+a.division-card { display: block; }
+
+h1, h2, h3 { font-family: var(--pixel); font-weight: normal; margin: 0; }
+
+.sprite { image-rendering: pixelated; display: block; width: 100%; height: auto; }
+.muted { color: var(--muted); }
+.tiny { font-size: 16px; }
+.accent { color: var(--red); }
+
+/* ---------- caixa com borda pixelada (cantos "recortados") ---------- */
+.pixel-box {
+  --c: var(--ink);
+  background: var(--panel);
+  margin: 4px;
+  box-shadow:
+    -4px 0 0 0 var(--c), 4px 0 0 0 var(--c),
+    0 -4px 0 0 var(--c), 0 4px 0 0 var(--c),
+    0 0 0 4px var(--line), 0 8px 0 4px rgba(0, 0, 0, .45);
+}
+
+.screen {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+/* ---------- títulos ---------- */
+.title { text-align: center; margin: 24px 0 8px; }
+.title h1 {
+  font-size: clamp(28px, 6vw, 56px);
+  letter-spacing: 4px;
+  text-shadow: 4px 4px 0 var(--purple), 8px 8px 0 var(--line);
+}
+.subtitle { font-family: var(--pixel); font-size: 11px; color: var(--cyan); margin-top: 18px; letter-spacing: 2px; }
+
+.section-label {
+  font-family: var(--pixel);
+  font-size: clamp(12px, 2vw, 18px);
+  text-align: center;
+  color: var(--gold);
+  margin: 36px 0 28px;
+  text-shadow: 3px 3px 0 var(--line);
+}
+
+.blink { animation: blink 1.2s steps(2, start) infinite; }
+@keyframes blink { to { visibility: hidden; } }
+
+.footer { text-align: center; color: var(--muted); font-family: var(--pixel); font-size: 9px; margin-top: 48px; }
+
+/* ---------- botões ---------- */
+.btn {
+  font-family: var(--pixel);
+  font-size: 10px;
+  padding: 10px 12px;
+  background: var(--panel-2);
+  box-shadow: -3px 0 0 0 var(--ink), 3px 0 0 0 var(--ink), 0 -3px 0 0 var(--ink), 0 3px 0 0 var(--ink);
+  margin: 3px;
+}
+.btn:hover, .btn:focus-visible { background: var(--red); outline: none; }
+.btn-sq { width: 38px; padding: 10px 0; }
+
+.topbar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 16px;
+}
+.topbar h2 { font-size: clamp(12px, 2.2vw, 20px); text-align: center; text-shadow: 3px 3px 0 var(--purple); }
+.topbar .muted { font-size: .6em; text-shadow: none; }
+.topbar > :first-child { justify-self: start; }
+.cycle { justify-self: end; display: flex; gap: 10px; }
+
+/* ---------- tela 1: divisões ---------- */
+.division-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+.division-card {
+  padding: 14px 14px 16px;
+  text-align: center;
+  transition: transform .08s steps(2);
+}
+.division-card .sprite { width: 62%; margin: 0 auto 12px; }
+.division-name { font-family: var(--pixel); font-size: 12px; line-height: 1.5; }
+.division-lbs { color: var(--cyan); font-family: var(--pixel); font-size: 9px; margin: 8px 0 6px; }
+.division-champ { color: var(--gold); font-size: 19px; }
+.division-card:hover, .division-card:focus-visible {
+  --c: var(--red);
+  background: var(--panel-2);
+  transform: translateY(-4px);
+  outline: none;
+  animation: cursor .5s steps(1) infinite;
+}
+
+@keyframes cursor {
+  0% { --c: var(--red); }
+  50% { --c: var(--gold); }
+}
+
+/* ---------- tela 2: seleção de lutador ---------- */
+.select-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr 220px;
+  gap: 36px;
+  align-items: center;
+}
+.fighter-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+.tile {
+  --c: #4b4390;
+  position: relative;
+  background: var(--panel-2);
+  padding: 6px 6px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+.tile .sprite { background: linear-gradient(#2c2560, #18143a); }
+.tile-name {
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-top: 6px;
+  min-height: 2em;
+  text-align: center;
+  overflow: hidden;
+}
+.tile-champ { --c: var(--gold); }
+.tile:hover, .tile:focus-visible {
+  --c: var(--red);
+  transform: translateY(-3px);
+  outline: none;
+  animation: cursor .5s steps(1) infinite;
+  z-index: 2;
+}
+.tile:hover .tile-name { color: var(--gold); }
+
+.rank {
+  font-family: var(--pixel);
+  font-size: 8px;
+  background: var(--purple);
+  color: var(--ink);
+  padding: 4px 5px;
+  box-shadow: 2px 2px 0 var(--line);
+}
+.tile .rank { position: absolute; top: -8px; left: -8px; z-index: 1; }
+.rank-champ { background: var(--gold); color: var(--line); }
+
+.flank { text-align: center; }
+.flank-label { font-family: var(--pixel); font-size: 10px; color: var(--gold); margin-bottom: 12px; }
+.flank-sprite { filter: drop-shadow(6px 6px 0 var(--line)); }
+.flank-name { font-family: var(--pixel); font-size: 11px; line-height: 1.5; margin-top: 10px; }
+.flank-record { font-family: var(--pixel); font-size: 14px; margin-top: 8px; }
+.flank:last-child .flank-sprite { transform: scaleX(-1); }
+
+.rec-w { color: var(--green); }
+.rec-l { color: var(--red); }
+.rec-d { color: var(--muted); }
+
+/* ---------- tela 3: perfil ---------- */
+.profile {
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr;
+  gap: 28px;
+  margin-top: 28px;
+  align-items: start;
+}
+.col { display: grid; gap: 28px; min-width: 0; }
+.wide { grid-column: 1 / -1; min-width: 0; }
+
+.panel { padding: 18px 18px 16px; min-width: 0; }
+.panel-title {
+  font-size: 11px;
+  color: var(--cyan);
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 4px dotted var(--panel-2);
+}
+.note { font-size: 15px; color: var(--muted); margin: 12px 0 0; }
+
+.hero { text-align: center; }
+.hero-sprite { width: 100%; max-width: 240px; margin: 0 auto; filter: drop-shadow(6px 6px 0 var(--line)); }
+.hero-name { font-size: 15px; line-height: 1.5; margin-top: 16px; text-shadow: 3px 3px 0 var(--purple); }
+.hero-nick { color: var(--gold); font-size: 24px; min-height: 1.2em; margin-top: 6px; }
+.hero-record { font-family: var(--pixel); font-size: 26px; margin-top: 12px; }
+.hero-sub { display: flex; justify-content: center; gap: 24px; margin-top: 14px; }
+.hero-sub > div { display: flex; flex-direction: column; }
+.ext-link {
+  display: inline-block;
+  margin-top: 18px;
+  font-family: var(--pixel);
+  font-size: 9px;
+  color: var(--cyan);
+  text-decoration: none;
+}
+.ext-link:hover { color: var(--gold); }
+
+/* atributos estilo RPG */
+.attr-row {
+  display: grid;
+  grid-template-columns: 150px 1fr 64px;
+  align-items: center;
+  gap: 10px;
+  margin: 7px 0;
+}
+.attr-label { font-size: 18px; }
+.attr-val { text-align: right; font-size: 20px; }
+.attr-bar { display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px; }
+.blk { height: 14px; background: #2a2456; box-shadow: inset -2px -2px 0 rgba(0, 0, 0, .35); }
+.lvl-low .blk.on { background: var(--red); }
+.lvl-mid .blk.on { background: var(--gold); }
+.lvl-high .blk.on { background: var(--green); }
+
+/* bio */
+.bio-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  margin: 0;
+}
+.bio-list dt { color: var(--muted); }
+.bio-list dd { margin: 0; text-align: right; }
+
+/* métodos de vitória/derrota */
+.method-row {
+  display: grid;
+  grid-template-columns: 70px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  margin: 10px 0;
+}
+.method-label { font-family: var(--pixel); font-size: 9px; }
+.pips { display: flex; flex-wrap: wrap; gap: 3px; }
+.pip { width: 12px; height: 12px; box-shadow: inset -2px -2px 0 rgba(0, 0, 0, .35); }
+.pip-W { background: var(--green); }
+.pip-L { background: var(--red); }
+.pip-D { background: var(--muted); }
+.method-count { font-size: 18px; white-space: nowrap; }
+.legend { display: flex; align-items: center; gap: 6px; }
+.legend .pip { width: 10px; height: 10px; }
+.legend .pip:not(:first-child) { margin-left: 10px; }
+
+.preload { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+/* últimas 5 lutas */
+.form-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+.form-item { text-align: center; min-width: 0; }
+.form-box {
+  font-family: var(--pixel);
+  font-size: 16px;
+  padding: 12px 0;
+  color: var(--line);
+  box-shadow: inset -4px -4px 0 rgba(0, 0, 0, .3);
+}
+.form-opp { font-size: 15px; margin-top: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.res-W { background: var(--green); }
+.res-L { background: var(--red); }
+.res-D, .res-NC, .res-nan { background: var(--muted); }
+
+/* histórico */
+.table-wrap { max-height: 460px; overflow: auto; }
+.history { width: 100%; border-collapse: collapse; font-size: 19px; }
+.history th {
+  position: sticky;
+  top: 0;
+  background: var(--panel);
+  font-family: var(--pixel);
+  font-size: 9px;
+  color: var(--muted);
+  text-align: left;
+  padding: 8px 10px 10px;
+}
+.history td { padding: 6px 10px; border-top: 2px solid var(--panel-2); white-space: nowrap; }
+.history tr:hover td { background: var(--panel-2); }
+.res-badge {
+  display: inline-block;
+  width: 26px;
+  text-align: center;
+  font-family: var(--pixel);
+  font-size: 10px;
+  padding: 4px 0;
+  color: var(--line);
+}
+.belt { color: var(--gold); }
+
+/* gráfico Plotly */
+.js-plotly-plot .plotly .modebar { display: none; }
+
+/* ---------- responsivo ---------- */
+@media (max-width: 1100px) {
+  .select-layout { grid-template-columns: 1fr; }
+  .flank { display: none; }
+  .profile { grid-template-columns: 1fr 1fr; }
+  .hero { grid-column: 1 / -1; }
+}
+@media (max-width: 900px) {
+  .division-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 700px) {
+  .screen { padding: 20px 16px 48px; }
+  .profile { grid-template-columns: 1fr; }
+  .fighter-grid { grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .attr-row { grid-template-columns: 1fr 64px; }
+  .attr-bar { grid-column: 1 / -1; grid-row: 2; }
+  .topbar { grid-template-columns: 1fr auto; gap: 12px; }
+  .topbar h2 { grid-column: 1 / -1; grid-row: 2; line-height: 1.8; }
+  .topbar .muted { display: block; }
+}
